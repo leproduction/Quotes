@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightgreen;
+  width: 100%;
+  height: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.frame {
+  display: block;
+  width: 60%;
+  height: 50%%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 50% auto auto auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+span {
+  width: 100%;
+  height: 80%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.author {
+  position: relative;
+  text-align: right;
+  border: 1px solid black;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+h3 {
+  padding: 0px;
+  border: blue 2px solid;
+  
+}
+
+.quotes {
+  padding: 10px;
+  border: 2px black solid;
+  width: 95%;
+  height: 90%;
+  word-wrap: break-word;
+}
+.beforebtn {
+  background-color: white;
+  margin:0;
+  width: 100%;
+  padding:0;
+}
+button {
+  margin-right: 80px;
+}
+input {
+  margin: 0;
+}
