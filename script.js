@@ -12,6 +12,7 @@ let quotesList = [{
 
 btn.addEventListener('click', function() {
   let random = Math.floor(Math.random() * quotesList.length);
+  //Math.floor rounds up nearest integer number. Math.random() * quotesList.length. This will give you a random number between 0 (inclusive) and the length of the array (exclusive).
   quotes.innerText = quotesList[random].quotes;
   author.innerText = quotesList[random].author; 
 });
